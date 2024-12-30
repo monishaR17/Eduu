@@ -1,0 +1,147 @@
+/* edu.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f8ff;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #080a0b;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #004080, #0066cc);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6f2ff;
+}
+
+.home img {
+    width: 450%;
+    max-width: 1100px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    text-align: center;
+    background-color: #d9edf7;
+}
+
+.about img {
+    width: 400%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Programs Section */
+.programs {
+    padding: 20px;
+    background-color: #cce7ff;
+}
+
+.program {
+    margin-bottom: 20px;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.program img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 10px 20px;
+    background: #003366;
+    color: white;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #cce7ff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
